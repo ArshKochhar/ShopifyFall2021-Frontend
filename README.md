@@ -1,5 +1,9 @@
 # This is the Shoppies Front End application for the Shopify Fall 2021 intern role
 
+Use the following links to access the Shoppies (Shopinations) website:-
+Netlify Deployment - https://shopination-arshfall2021.netlify.app
+Heroku Deployment - https://shopination-arshfall2021.herokuapp.com
+
 I developed this project using React.js and Bootstrap to allow for beautifully crafted components
   - The current state of the project as a seamless UI that the user is able to easily follow
   - I made sure to maintain Shopify's color scheme to make for a consistent UI
