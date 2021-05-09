@@ -1,6 +1,6 @@
 # This is the Shoppies Front End application for the Shopify Fall 2021 intern role
 
-#Use the following links to access the Shoppies (Shopinations) website:
+Use the following links to access the Shoppies (Shopinations) website:
 
 - Netlify Deployment - https://shopination-arshfall2021.netlify.app
 - Heroku Deployment - https://shopination-arshfall2021.herokuapp.com
@@ -10,7 +10,7 @@ I developed this project using React.js and Bootstrap to allow for beautifully c
   - I made sure to maintain Shopify's color scheme to make for a consistent UI
   - Used React inline css styles since this is a relatively small application, and can be easily done via inline styles
 
-#Features
+Features
   - The search value updates as soon as a change is made to the search string
   - Pulls movies from the OMDB API on string change and populates a series of cards using the .map function
   - Made use of react hooks to manage states and pass props to allow for effective data transfer
@@ -23,7 +23,7 @@ I developed this project using React.js and Bootstrap to allow for beautifully c
     - After this point the user can only nominate more movies if a nomination is removed
 
 
-#Next Steps
+Next Steps
   - As mentioned earlier, I need to familiarize myself better with react hooks to truly implement the functionality of the disables buttons effectively
   - Currently, there exists code to disable the 'Nominate' button, but has been commented out because, it does not allow the button to be enabled once a movie has been removed from nomination (This code exists on line 10-14 in addNominations.js - on the button tag right beneath is where we would call 'handleFormSubmit', and set the disabled prop to - 'disabled={grey}' to enable this disabled button functionality.)
     - I have commented this out as the button does not enable once the movie is removed from the nomination hence causing additionaly confusion for the user.
