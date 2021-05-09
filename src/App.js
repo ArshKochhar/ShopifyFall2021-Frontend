@@ -29,7 +29,7 @@ const App = () => {
 
   //pulling movies from the OMDB api
   const getMoviereq = async (searchValue) => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=a08498fd`;
+    const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=a08498fd`;
     const response = await fetch(url);
     const responseJson = await response.json();
 
